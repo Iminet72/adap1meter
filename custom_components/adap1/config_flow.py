@@ -42,8 +42,8 @@ class AdaOkosMeroOptionsFlow(config_entries.OptionsFlow):
 
     def __init__(self, config_entry):
         """Initialize options flow."""
-       # Ne tárold el a config_entry objektumot közvetlenül! 
-       # self.config_entry = config_entry
+        # Ne tárold el a config_entry objektumot közvetlenül! 
+        # self.config_entry = config_entry
         self._data = config_entry.data
 
 
